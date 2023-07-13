@@ -151,7 +151,7 @@ int wmain(int argc, wchar_t* argv[])
     {
         wprintf(L"Removes $Kernel.Purge EAs from the given file.\n\n");
         wprintf(L"Usage: %s <FILE> [--no-yolo]\n", argv[0]);
-        wprintf(L"\n\t--no-yolo\tFail if the operation cannot be done with TxF.\n");
+        wprintf(L"\t--no-yolo\tFail if the operation cannot be done with TxF.\n");
         return 0;
     }
 
