@@ -38,6 +38,12 @@ Ea Value Length: 6c
 0050:  a4 a9 12 46 9a 99 26 89  00 46 44 7e 55 4b d7 44  ...F..&..FD~UK.D
 0060:  fa dc 41 ea 6c 16 92 fb  8b b6 6e b7              ..A.l.....n.
 
+C:\Users\user\Desktop>ExtendedAttributeIpecac.exe 
+Removes $Kernel.Purge EAs from the given file.
+
+Usage: C:\git\ExtendedAttributeIpecac\x64\Release\ExtendedAttributeIpecac.exe <FILE> [--no-yolo]
+        --no-yolo       Fail if the operation cannot be done with TxF.
+
 C:\Users\user\Desktop>ExtendedAttributeIpecac.exe C:\Windows\System32\ntdll.dll
  [+] Created stream in TxF: C:\Windows\System32\ntdll.dll:RemoveKernelPurgeEAs
  [+] Reparse point created.
