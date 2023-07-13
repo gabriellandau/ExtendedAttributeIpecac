@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KernelEaIpecac.cpp">
+    <ClCompile Include="ExtendedAttributeIpecac.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
