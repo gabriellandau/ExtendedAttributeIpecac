@@ -1,4 +1,4 @@
-# Kernel EA Ipecac
+# Extended Attribute Ipecac
 
 By [Gabriel Landau](https://twitter.com/GabrielLandau) @ [Elastic Security Labs](https://www.elastic.co/security-labs/).
 
@@ -38,7 +38,7 @@ Ea Value Length: 6c
 0050:  a4 a9 12 46 9a 99 26 89  00 46 44 7e 55 4b d7 44  ...F..&..FD~UK.D
 0060:  fa dc 41 ea 6c 16 92 fb  8b b6 6e b7              ..A.l.....n.
 
-C:\Users\user\Desktop>KernelEaIpecac.exe C:\Windows\System32\ntdll.dll
+C:\Users\user\Desktop>ExtendedAttributeIpecac.exe C:\Windows\System32\ntdll.dll
  [+] Created stream in TxF: C:\Windows\System32\ntdll.dll:RemoveKernelPurgeEAs
  [+] Reparse point created.
  [+] Reparse point removed.
